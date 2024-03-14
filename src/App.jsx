@@ -1,9 +1,5 @@
 import { useRef, useState } from "react";
-import axios from "axios";
 import "./App.css";
-
-// const API_KEY = "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";
-// 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
 
 function App() {
   const [isImage, setIsImage] = useState("/");
@@ -61,11 +57,6 @@ function App() {
           Generate
         </button>
       </div>
-
-      {/* <input type="text" ref={inputRef} />
-      <button onClick={() => imageGenerator()} className="text-white">
-        Click
-      </button> */}
     </>
   );
 }
